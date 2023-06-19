@@ -1,9 +1,11 @@
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.LinkedList;
 import java.util.List;
 
 public class ArrayListExample {
     public void exemploListaSimples(){
+        // Array List é mais rápida para consulta
         List<String> list = new ArrayList<>();
         list.add("Guilherme");
         list.add("Buken");
@@ -31,6 +33,16 @@ public class ArrayListExample {
         Collections.sort(alunos);
 
         System.out.println(alunos);
+
+        // Linked List é mais rápida para adicionar e remover elementos
+
+        List<Aluno> alunosLinked = new LinkedList<>();
+        alunosLinked.add(a);
+        alunosLinked.add(b);
+
+        alunosLinked.remove(1);
+
+        System.out.println(alunosLinked);
 
 
     }
