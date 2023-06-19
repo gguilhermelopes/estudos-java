@@ -43,7 +43,36 @@ public class ArrayListExample {
         alunosLinked.remove(1);
 
         System.out.println(alunosLinked);
+        testeLinkedListAdd();
+        testeArrayListAdd();
+    }
 
+    private static void testeLinkedListAdd(){
+        final int MAX = 20000;
+        long tInicio = System.currentTimeMillis();
+        List<Integer> lista = new LinkedList<>();
+        for(int i = 0; i < MAX; i++){
+            lista.add(i);
+        }
+        for(int i = 0; i < MAX; i++){
+            lista.contains(i);
+        }
+        long tFim = System.currentTimeMillis();
 
+        System.out.println("Tempo total LinkedList add x contains: " + (tFim - tInicio));
+    }
+    private static void testeArrayListAdd(){
+        final int MAX = 20000;
+        long tInicio = System.currentTimeMillis();
+        List<Integer> lista = new ArrayList<>();
+        for(int i = 0; i < MAX; i++){
+            lista.add(i);
+        }
+        for(int i = 0; i < MAX; i++){
+            lista.contains(i);
+        }
+        long tFim = System.currentTimeMillis();
+
+        System.out.println("Tempo total ArrayList add x contains: " + (tFim - tInicio));
     }
 }
