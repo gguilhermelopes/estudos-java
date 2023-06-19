@@ -1,3 +1,5 @@
+import java.util.Objects;
+
 public class Aluno implements Comparable<Aluno>  {
     private String nome;
     private String curso;
@@ -44,6 +46,19 @@ public class Aluno implements Comparable<Aluno>  {
 
     public String toString(){
         return this.nome;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Aluno aluno = (Aluno) o;
+        return Double.compare(aluno.nota, nota) == 0 && aprovado == aluno.aprovado && Objects.equals(nome, aluno.nome) && Objects.equals(curso, aluno.curso);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(nome, curso, nota, aprovado);
     }
 
     @Override
