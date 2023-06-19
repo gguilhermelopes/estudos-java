@@ -28,6 +28,8 @@ public class ArrayListExample {
         alunos.add(a);
         alunos.add(b);
 
+        Collections.sort(alunos);
+
         System.out.println(alunos);
 
 
