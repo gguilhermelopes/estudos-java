@@ -6,7 +6,10 @@ public class Main {
     ArrayTestes arrayTestes = new ArrayTestes();
     BubbleSort bubbleSort = new BubbleSort();
     ExemplosMap exemplosMap = new ExemplosMap();
+    ExercicioCollections exercicioCollections = new ExercicioCollections();
 
-    exemplosMap.HashMapExemplo();
+    exercicioCollections.exercicio();
+
+
     }
 }
