@@ -4,8 +4,11 @@ public class Main {
     QueueAndDeque queueAndDeque = new QueueAndDeque();
     SetCollection setCollection = new SetCollection();
     ArrayTestes arrayTestes = new ArrayTestes();
+    BubbleSort bubbleSort = new BubbleSort();
 
-    arrayTestes.testesArray();
+    bubbleSort.ExemploBubbleSort();
+
+
 
 
     }
