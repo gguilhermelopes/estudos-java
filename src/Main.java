@@ -3,8 +3,9 @@ public class Main {
     ArrayListExample arraylist = new ArrayListExample();
     QueueAndDeque queueAndDeque = new QueueAndDeque();
     SetCollection setCollection = new SetCollection();
+    ArrayTestes arrayTestes = new ArrayTestes();
 
-    setCollection.hashSetTreeSetLinkedHashSet();
+    arrayTestes.testesArray();
 
 
     }
