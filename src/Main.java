@@ -1,3 +1,7 @@
+import Collections.*;
+import Interfaces.CanetaEsferografica;
+import Interfaces.ICaneta;
+
 public class Main {
     public static void main(String[] args) {
     ArrayListExample arraylist = new ArrayListExample();
@@ -7,8 +11,11 @@ public class Main {
     BubbleSort bubbleSort = new BubbleSort();
     ExemplosMap exemplosMap = new ExemplosMap();
     ExercicioCollections exercicioCollections = new ExercicioCollections();
+    ICaneta caneta = new CanetaEsferografica();
 
-    exercicioCollections.exercicio();
+    caneta.escrever("Teste");
+    caneta.escreverFixo();
+
 
 
     }

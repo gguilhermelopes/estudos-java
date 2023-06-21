@@ -5,7 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99669ddb-40a0-47e0-8df4-dec377c7c94a" name="Changes" comment="first commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Collections/Aluno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayListExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Collections/ArrayListExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayTestes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Collections/ArrayTestes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Collections/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExemplosMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Collections/ExemplosMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExercicioCollections.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Collections/ExercicioCollections.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/QueueAndDeque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Collections/QueueAndDeque.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SetCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Collections/SetCollection.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +24,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -34,12 +44,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Program Files/JetBrains/dicptbr/portuguese-brazil_without-accents.dic",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.spelling"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -54,7 +67,7 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="4" Folder0="C:\Program Files\JetBrains\dicptbr" Folder1="C:\Program Files\JetBrains\dicptbr" Folder2="C:\Program Files\JetBrains\dicptbr" Folder3="C:\Program Files\JetBrains\dicptbr" CustomDictionaries="4" CustomDictionary0="C:\Program Files\JetBrains\dicptbr\portuguese-brazil.dic" CustomDictionary1="C:\Program Files\JetBrains\dicptbr\portuguese-brazil_technical-terms.dic" CustomDictionary2="C:\Program Files\JetBrains\dicptbr\portuguese-brazil_technical-terms_without-accents.dic" CustomDictionary3="C:\Program Files\JetBrains\dicptbr\portuguese-brazil_without-accents.dic" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="99669ddb-40a0-47e0-8df4-dec377c7c94a" name="Changes" comment="" />
@@ -72,6 +85,17 @@
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
