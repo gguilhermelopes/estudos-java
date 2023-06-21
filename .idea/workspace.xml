@@ -4,17 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99669ddb-40a0-47e0-8df4-dec377c7c94a" name="Changes" comment="first commit">
+    <list default="true" id="99669ddb-40a0-47e0-8df4-dec377c7c94a" name="Changes" comment="Organizando em packages / criando Interfaces">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Collections/Aluno.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArrayListExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Collections/ArrayListExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArrayTestes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Collections/ArrayTestes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Collections/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ExemplosMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Collections/ExemplosMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ExercicioCollections.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Collections/ExercicioCollections.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Collections/Aluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collections/Aluno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Collections/ArrayListExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collections/ArrayListExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Collections/ArrayTestes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collections/ArrayTestes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Collections/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collections/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Collections/ExemplosMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collections/ExemplosMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Collections/ExercicioCollections.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collections/ExercicioCollections.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Collections/QueueAndDeque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collections/QueueAndDeque.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Collections/SetCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collections/SetCollection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interfaces/CanetaEsferografica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/CanetaEsferografica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interfaces/Giz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/Giz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interfaces/ICaneta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/ICaneta.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/QueueAndDeque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Collections/QueueAndDeque.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SetCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Collections/SetCollection.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +53,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Program Files/JetBrains/dicptbr/portuguese-brazil_without-accents.dic",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.spelling"
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="RunManager">
@@ -99,6 +102,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="Organizando em packages / criando Interfaces" />
+    <option name="LAST_COMMIT_MESSAGE" value="Organizando em packages / criando Interfaces" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
