@@ -6,7 +6,7 @@ import java.util.List;
 public class Venda {
     private Comprador comprador;
     private Vendedor vendedor;
-    private List<Produto> produtos;
+    private final List<Produto> produtos;
 
     public Venda(){
         this.produtos = new ArrayList<>();
