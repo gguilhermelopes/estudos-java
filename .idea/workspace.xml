@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99669ddb-40a0-47e0-8df4-dec377c7c94a" name="Changes" comment="Organizando em packages / criando Interfaces">
+      <change afterPath="$PROJECT_DIR$/src/crudClients/domain/Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/agregacao/Venda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/agregacao/Venda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/crudClients/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/crudClients/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/crudClients/Client.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +46,20 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.agregacao.Main">
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="crudClients.App" />
+      <module name="estudosJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="crudClients.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="estudosJava" />
@@ -69,6 +82,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App" />
         <item itemvalue="Application.agregacao.Main" />
         <item itemvalue="Application.Main" />
       </list>
