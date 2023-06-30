@@ -45,6 +45,7 @@ public class MainScreen extends javax.swing.JFrame {
         btnSignUp = new javax.swing.JButton();
         jScrollPane1 = new javax.swing.JScrollPane();
         tableClients = new javax.swing.JTable();
+        btnDelete = new javax.swing.JButton();
         jMenuBar1 = new javax.swing.JMenuBar();
         jMenu1 = new javax.swing.JMenu();
         menuItemExit = new javax.swing.JMenuItem();
@@ -84,7 +85,19 @@ public class MainScreen extends javax.swing.JFrame {
                 "Title 1", "Title 2", "Title 3", "Title 4"
             }
         ));
+        tableClients.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                tableClientsMouseClicked(evt);
+            }
+        });
         jScrollPane1.setViewportView(tableClients);
+
+        btnDelete.setText("Excluir");
+        btnDelete.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnDeleteActionPerformed(evt);
+            }
+        });
 
         jMenu1.setText("Opções");
 
@@ -118,6 +131,8 @@ public class MainScreen extends javax.swing.JFrame {
                         .addComponent(txtCPF))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                         .addGap(0, 0, Short.MAX_VALUE)
+                        .addComponent(btnDelete, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(btnSignUp, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap())
         );
@@ -132,7 +147,9 @@ public class MainScreen extends javax.swing.JFrame {
                         .addComponent(lblCPF)
                         .addComponent(txtCPF, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(btnSignUp)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(btnSignUp)
+                    .addComponent(btnDelete))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 455, Short.MAX_VALUE)
                 .addContainerGap())
@@ -180,6 +197,42 @@ public class MainScreen extends javax.swing.JFrame {
         }
         
     }//GEN-LAST:event_btnSignUpActionPerformed
+
+    private void tableClientsMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_tableClientsMouseClicked
+        int row = tableClients.getSelectedRow();
+        Long cpf = (Long) tableClients.getValueAt(row, 1);
+        
+        Client client = clientDAO.find(cpf);
+     
+        txtName.setText(client.getName());
+        txtCPF.setText(cpf.toString());
+    }//GEN-LAST:event_tableClientsMouseClicked
+
+    private void btnDeleteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDeleteActionPerformed
+        int row = tableClients.getSelectedRow();
+        
+        if(row >=0){
+            int result = JOptionPane.showConfirmDialog(
+                this, "Deseja realmente excluir esse cliente? Essa ação não poderá ser revertida.","Excluir",
+                JOptionPane.YES_NO_OPTION,
+                JOptionPane.QUESTION_MESSAGE
+        );
+            if (result == JOptionPane.YES_OPTION){
+                Long cpf = (Long) tableClients.getValueAt(row, 1);
+                clientDAO.delete(cpf);
+                model.removeRow(row);
+             
+                JOptionPane.showMessageDialog(
+                     null, "Cliente excluído com sucesso.","Excluir", JOptionPane.INFORMATION_MESSAGE
+                );
+                resetFields();
+            }   
+        }   else {
+             JOptionPane.showMessageDialog(
+                     null, "Nenhum cliente selecionado.","Excluir", JOptionPane.INFORMATION_MESSAGE
+                );
+            }
+    }//GEN-LAST:event_btnDeleteActionPerformed
     
     private boolean isDataValid (String ...data){
         for(String value : data){
@@ -224,6 +277,7 @@ public class MainScreen extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton btnDelete;
     private javax.swing.JButton btnSignUp;
     private javax.swing.JMenu jMenu1;
     private javax.swing.JMenu jMenu3;
