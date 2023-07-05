@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2d640fd-3c23-4f1e-8a56-9dab0812f13e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/estudosJava/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/estudosJava/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/estudosJava/src/Aluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/estudosJava/src/Collections/Aluno.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/estudosJava/src/ArrayListExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/estudosJava/src/Collections/ArrayListExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/estudosJava/src/ArrayTestes.java" beforeDir="false" afterPath="$PROJECT_DIR$/estudosJava/src/Collections/ArrayTestes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/estudosJava/src/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/estudosJava/src/Collections/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/estudosJava/src/ExemplosMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/estudosJava/src/Collections/ExemplosMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/estudosJava/src/ExercicioCollections.java" beforeDir="false" afterPath="$PROJECT_DIR$/estudosJava/src/Collections/ExercicioCollections.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/estudosJava/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/estudosJava/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/estudosJava/src/QueueAndDeque.java" beforeDir="false" afterPath="$PROJECT_DIR$/estudosJava/src/Collections/QueueAndDeque.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/estudosJava/src/SetCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/estudosJava/src/Collections/SetCollection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,20 +14,20 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/estudosJava" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2RI8cRJ3wuYfuHuEkea8xjbGVay" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
