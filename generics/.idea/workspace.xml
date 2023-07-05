@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="43e37ce3-2c2e-4e1f-962f-1be41bf88d97" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/gguilhermelopes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generics.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dao/ClientMapDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dao/IClientDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dao/generic/GenericDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dao/generic/IGenericDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/domain/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/domain/Persistente.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2S7HO1bCyUr7BqXSw7yZ5FH6S6f" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Program Files/JetBrains/dicptbr/portuguese-brazil_without-accents.dic",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.spelling"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="4" Folder0="C:\Program Files\JetBrains\dicptbr" Folder1="C:\Program Files\JetBrains\dicptbr" Folder2="C:\Program Files\JetBrains\dicptbr" Folder3="C:\Program Files\JetBrains\dicptbr" CustomDictionaries="4" CustomDictionary0="C:\Program Files\JetBrains\dicptbr\portuguese-brazil.dic" CustomDictionary1="C:\Program Files\JetBrains\dicptbr\portuguese-brazil_technical-terms.dic" CustomDictionary2="C:\Program Files\JetBrains\dicptbr\portuguese-brazil_technical-terms_without-accents.dic" CustomDictionary3="C:\Program Files\JetBrains\dicptbr\portuguese-brazil_without-accents.dic" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="43e37ce3-2c2e-4e1f-962f-1be41bf88d97" name="Changes" comment="" />
+      <created>1688490666605</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1688490666605</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
