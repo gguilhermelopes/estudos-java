@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99669ddb-40a0-47e0-8df4-dec377c7c94a" name="Changes" comment="Organizando em packages / criando Interfaces">
-      <change beforePath="$PROJECT_DIR$/src/annotation/AnnotationClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/annotation/AnnotationClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../generics/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../generics/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../generics/src/dao/IClientDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../generics/src/dao/IClientDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +53,7 @@
       <recent name="generics.cadastro.domain" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.generics.Main">
+  <component name="RunManager" selected="Application.exception.Main">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="crudClients.App" />
       <module name="estudosJava" />
@@ -89,6 +87,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="exception.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exception.Main" />
+      <module name="estudosJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exception.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="generics.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="generics.Main" />
       <module name="estudosJava" />
@@ -104,6 +115,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.exception.Main" />
         <item itemvalue="Application.generics.Main" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.agregacao.Main" />
