@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43e37ce3-2c2e-4e1f-962f-1be41bf88d97" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/gguilhermelopes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generics.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/ClientMapDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/IClientDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/generic/GenericDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/generic/IGenericDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/domain/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/domain/Persistente.java" afterDir="false" />
-    </list>
+    <list default="true" id="43e37ce3-2c2e-4e1f-962f-1be41bf88d97" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,13 +13,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="2S7HO1bCyUr7BqXSw7yZ5FH6S6f" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
