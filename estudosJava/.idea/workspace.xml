@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99669ddb-40a0-47e0-8df4-dec377c7c94a" name="Changes" comment="Organizando em packages / criando Interfaces">
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../generics/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../generics/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="AnnotationType" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -53,13 +55,13 @@
       <recent name="generics.cadastro.domain" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.exception.Main">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="crudClients.App" />
+  <component name="RunManager" selected="Application.OperationTest">
+    <configuration name="Anonymous" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambdas.Anonymous" />
       <module name="estudosJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="crudClients.*" />
+          <option name="PATTERN" value="lambdas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,18 +70,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="estudosJava" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="agregacao.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="agregacao.Main" />
+      <option name="MAIN_CLASS_NAME" value="lambdas.Main" />
       <module name="estudosJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="agregacao.*" />
+          <option name="PATTERN" value="lambdas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="exception.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exception.Main" />
+    <configuration name="OperationTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambdas.OperationTest" />
       <module name="estudosJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exception.*" />
+          <option name="PATTERN" value="lambdas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +95,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="generics.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="generics.Main" />
+    <configuration name="ThreadsLambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambdas.ThreadsLambda" />
       <module name="estudosJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="generics.*" />
+          <option name="PATTERN" value="lambdas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="reflections.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="reflections.Main" />
+      <module name="estudosJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="reflections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.exception.Main" />
-        <item itemvalue="Application.generics.Main" />
-        <item itemvalue="Application.App" />
-        <item itemvalue="Application.agregacao.Main" />
+        <item itemvalue="Application.OperationTest" />
+        <item itemvalue="Application.Anonymous" />
+        <item itemvalue="Application.ThreadsLambda" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.reflections.Main" />
       </list>
     </recent_temporary>
   </component>

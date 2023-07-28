@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43e37ce3-2c2e-4e1f-962f-1be41bf88d97" name="Changes" comment="" />
+    <list default="true" id="43e37ce3-2c2e-4e1f-962f-1be41bf88d97" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../estudosJava/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../estudosJava/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,17 +31,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Program Files/JetBrains/dicptbr/portuguese-brazil_without-accents.dic",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.spelling"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Program Files/JetBrains/dicptbr/portuguese-brazil_without-accents.dic&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.spelling&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="4" Folder0="C:\Program Files\JetBrains\dicptbr" Folder1="C:\Program Files\JetBrains\dicptbr" Folder2="C:\Program Files\JetBrains\dicptbr" Folder3="C:\Program Files\JetBrains\dicptbr" CustomDictionaries="4" CustomDictionary0="C:\Program Files\JetBrains\dicptbr\portuguese-brazil.dic" CustomDictionary1="C:\Program Files\JetBrains\dicptbr\portuguese-brazil_technical-terms.dic" CustomDictionary2="C:\Program Files\JetBrains\dicptbr\portuguese-brazil_technical-terms_without-accents.dic" CustomDictionary3="C:\Program Files\JetBrains\dicptbr\portuguese-brazil_without-accents.dic" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
