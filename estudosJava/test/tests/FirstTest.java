@@ -7,8 +7,9 @@ public class FirstTest {
 
     @Test
     public void test1(){
-        String name = "Guilherme";
-        Assert.assertEquals("Guilherme", name);
+        Client client = new Client();
+        client.addName("Guilherme");
+        Assert.assertEquals("Guilherme", client.getName());
     }
 
 }
