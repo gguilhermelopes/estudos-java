@@ -7,4 +7,14 @@ public class ContractDAOMock implements IContractDAO {
     public void save() {
 
     }
+
+    @Override
+    public void search() {
+
+    }
+
+    @Override
+    public void delete() {
+
+    }
 }

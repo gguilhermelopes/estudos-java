@@ -13,4 +13,16 @@ public class ContractService implements IContractService {
         contractDAO.save();
         return "Sucesso";
     }
+
+    @Override
+    public String search() {
+        contractDAO.save();
+        return "Sucesso";
+    }
+
+    @Override
+    public String delete() {
+        contractDAO.delete();
+        return "Sucesso";
+    }
 }

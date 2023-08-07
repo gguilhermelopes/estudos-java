@@ -6,7 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="99669ddb-40a0-47e0-8df4-dec377c7c94a" name="Changes" comment="Organizando em packages / criando Interfaces">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tdd/dao/mock/ContractDAOMock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tdd/dao/mock/ContractDAOMock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tdd/dao/ContractDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tdd/dao/ContractDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tdd/dao/IContractDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tdd/dao/IContractDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tdd/service/ContractService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tdd/service/ContractService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tdd/service/IContractService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tdd/service/IContractService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/tdd/ContractServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/tdd/ContractServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,21 +78,6 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.ContractServiceTest">
-    <configuration name="AllTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="estudosJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.AllTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ClientServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="estudosJava" />
       <extension name="coverage">
@@ -119,17 +108,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ContractServiceTest.expectedErrorOnSearchWithDatabase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="estudosJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.*" />
+          <option name="PATTERN" value="tdd.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.FirstTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="tdd" />
+      <option name="MAIN_CLASS_NAME" value="tdd.ContractServiceTest" />
+      <option name="METHOD_NAME" value="expectedErrorOnSearchWithDatabase" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContractServiceTest.searchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="estudosJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tdd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tdd" />
+      <option name="MAIN_CLASS_NAME" value="tdd.ContractServiceTest" />
+      <option name="METHOD_NAME" value="searchTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -153,10 +159,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.ContractServiceTest" />
+        <item itemvalue="JUnit.ContractServiceTest.expectedErrorOnSearchWithDatabase" />
+        <item itemvalue="JUnit.ContractServiceTest.searchTest" />
         <item itemvalue="JUnit.ClientServiceTest" />
         <item itemvalue="JUnit.FirstTest.test1" />
-        <item itemvalue="JUnit.FirstTest" />
-        <item itemvalue="JUnit.AllTests" />
       </list>
     </recent_temporary>
   </component>
@@ -202,6 +208,9 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/estudosJava$FirstTest_test1.ic" NAME="FirstTest.test1 Coverage Results" MODIFIED="1691085182726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>tests.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/estudosJava$ContractServiceTest.ic" NAME="ContractServiceTest Coverage Results" MODIFIED="1691429371737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>tdd.*</FILTER>
     </SUITE>
   </component>
 </project>
