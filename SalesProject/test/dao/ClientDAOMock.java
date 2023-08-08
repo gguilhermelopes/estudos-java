@@ -4,8 +4,8 @@ import domain.Client;
 
 public class ClientDAOMock implements IClientDAO {
     @Override
-    public void save(Client client) {
-
+    public Boolean save(Client client) {
+        return true;
     }
 
     @Override
@@ -13,5 +13,10 @@ public class ClientDAOMock implements IClientDAO {
         Client client = new Client();
         client.setCpf(cpf);
         return client;
+    }
+
+    @Override
+    public void delete(Long cpf) {
+
     }
 }

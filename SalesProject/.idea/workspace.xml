@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9cb55d7-ecaf-42c4-b605-34e922da79c6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../estudosJava/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../estudosJava/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/ClientDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/ClientDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/IClientDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/IClientDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/ClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/ClientService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/IClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/IClientService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ClientServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/dao/ClientDAOMock.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/dao/ClientDAOMock.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,30 +56,39 @@
       <recent name="domain" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ClientTest.searchClient">
-    <configuration name="ClientTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ClientDAOTest">
+    <configuration name="ClientDAOTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SalesProject" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ClientTest" />
+      <option name="MAIN_CLASS_NAME" value="ClientDAOTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClientTest.save" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ClientServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SalesProject" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ClientTest" />
+      <option name="MAIN_CLASS_NAME" value="ClientServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientServiceTest.save" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SalesProject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ClientServiceTest" />
       <option name="METHOD_NAME" value="save" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClientTest.searchClient" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ClientServiceTest.searchClient" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SalesProject" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ClientTest" />
+      <option name="MAIN_CLASS_NAME" value="ClientServiceTest" />
       <option name="METHOD_NAME" value="searchClient" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -82,9 +97,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ClientTest.searchClient" />
-        <item itemvalue="JUnit.ClientTest" />
-        <item itemvalue="JUnit.ClientTest.save" />
+        <item itemvalue="JUnit.ClientDAOTest" />
+        <item itemvalue="JUnit.ClientServiceTest" />
+        <item itemvalue="JUnit.ClientServiceTest.searchClient" />
+        <item itemvalue="JUnit.ClientServiceTest.save" />
       </list>
     </recent_temporary>
   </component>

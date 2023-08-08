@@ -10,13 +10,17 @@ public class ClientService implements IClientService {
         this.clientDAO = clientDAO;
     }
     @Override
-    public void save(Client client) {
-        clientDAO.save(client);
-
+    public Boolean save(Client client) {
+        return clientDAO.save(client);
     }
 
     @Override
     public Client cpfSearch(Long cpf) {
         return clientDAO.cpfSearch(cpf);
+    }
+
+    @Override
+    public void delete(Long cpf) {
+
     }
 }
