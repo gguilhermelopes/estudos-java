@@ -1,20 +1,18 @@
 package dao;
 
+import dao.generic.GenericDAO;
 import domain.Client;
 
-public class ClientDAO implements IClientDAO {
+public class ClientDAO extends GenericDAO<Client> implements IClientDAO {
+
+
     @Override
-    public Boolean save(Client client) {
-        return true;
+    public Class<Client> getClassType() {
+       return Client.class;
     }
 
     @Override
-    public Client cpfSearch(Long cpf) {
-        return null;
-    }
-
-    @Override
-    public void delete(Long cpf) {
+    public void updateData(Client entity, Client registeredEntity) {
 
     }
 }

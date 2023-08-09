@@ -1,22 +1,37 @@
 package dao;
 
 import domain.Client;
+import exception.TypeKeyNotFoundException;
+
+import java.util.Collection;
 
 public class ClientDAOMock implements IClientDAO {
+
+
     @Override
-    public Boolean save(Client client) {
+    public Boolean save(Client entity) throws TypeKeyNotFoundException {
         return true;
     }
 
     @Override
-    public Client cpfSearch(Long cpf) {
+    public void delete(Long value) {
+
+    }
+
+    @Override
+    public void update(Client entity) throws TypeKeyNotFoundException {
+
+    }
+
+    @Override
+    public Client search(Long value) {
         Client client = new Client();
-        client.setCpf(cpf);
+        client.setCpf(value);
         return client;
     }
 
     @Override
-    public void delete(Long cpf) {
-
+    public Collection<Client> searchAll() {
+        return null;
     }
 }

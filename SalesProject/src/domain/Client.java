@@ -1,6 +1,6 @@
 package domain;
 
-public class Client {
+public class Client implements Persistent {
  private Long cpf;
  private String name;
  private Long phone;

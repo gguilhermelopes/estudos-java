@@ -1,6 +1,7 @@
 import dao.ClientDAOMock;
 import dao.IClientDAO;
 import domain.Client;
+import exception.TypeKeyNotFoundException;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
@@ -40,7 +41,7 @@ public class ClientServiceTest {
     }
 
     @Test
-    public void saveClient(){
+    public void saveClient() throws TypeKeyNotFoundException {
        Boolean saveReturn = clientService.save(client);
 
        Assert.assertTrue(saveReturn);
@@ -49,5 +50,13 @@ public class ClientServiceTest {
     @Test
     public void deleteClient(){
         clientService.delete(client.getCpf());
+    }
+
+    @Test
+    public void updateClient() throws TypeKeyNotFoundException {
+        client.setName("Buken");
+        clientService.update(client);
+
+        Assert.assertEquals("Buken", client.getName());
     }
 }

@@ -1,11 +1,8 @@
 package dao;
 
+import dao.generic.IGenericDAO;
 import domain.Client;
 
-public interface IClientDAO {
-    Boolean save(Client client);
+public interface IClientDAO extends IGenericDAO<Client> {
 
-    Client cpfSearch(Long cpf);
-
-    void delete(Long cpf);
 }
