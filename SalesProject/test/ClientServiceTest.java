@@ -28,8 +28,6 @@ public class ClientServiceTest {
         client.setAddress("Endereço");
         client.setNumber(123);
         client.setPhone(123456L);
-
-
     }
 
 
