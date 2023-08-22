@@ -1,6 +1,13 @@
 package com.hibernate.domain;
 
 import jakarta.persistence.*;
+import org.hibernate.annotations.Cascade;
+
+
+import java.util.ArrayList;
+import java.util.List;
+
+
 
 @Entity
 @Table(name = "TB_STUDENT")
@@ -21,6 +28,19 @@ public class Student {
     private String name;
     @OneToOne(mappedBy = "student")
     private Registration registration;
+
+    @ManyToMany
+    @Cascade({org.hibernate.annotations.CascadeType.PERSIST, org.hibernate.annotations.CascadeType.MERGE})
+    @JoinTable(
+            name = "TB_STUDENT_COMPUTER",
+            joinColumns = {@JoinColumn(name = "student_id")},
+            inverseJoinColumns = {@JoinColumn(name = "computer_id")}
+    )
+    private List<Computer> computers;
+
+    public Student(){
+        this.computers = new ArrayList<Computer>();
+    }
 
     public Long getId() {
         return id;
@@ -52,5 +72,17 @@ public class Student {
 
     public void setRegistration(Registration registration) {
         this.registration = registration;
+    }
+
+    public List<Computer> getComputers() {
+        return computers;
+    }
+
+    public void setComputers(List<Computer> computers) {
+        this.computers = computers;
+    }
+
+    public void addComputers(Computer computer){
+        this.computers.add(computer);
     }
 }
