@@ -27,7 +27,7 @@ public class Registration {
     private String status;
     @ManyToOne
     @JoinColumn(
-            name = "course_id",
+            name = "COURSE_ID",
             foreignKey = @ForeignKey(name= "fk_course_registration"),
             referencedColumnName = "id",
             nullable = false
@@ -35,7 +35,7 @@ public class Registration {
     private Course course;
     @OneToOne
     @JoinColumn(
-            name = "student_id",
+            name = "STUDENT_ID",
             foreignKey = @ForeignKey(name = "fk_student_registration"),
             referencedColumnName = "id",
             nullable = false

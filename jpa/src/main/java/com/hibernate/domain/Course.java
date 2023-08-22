@@ -20,6 +20,7 @@ public class Course {
     @Column(name = "DESCRIPTION", nullable = false)
     private String description;
     @OneToMany(mappedBy = "course")
+
     private List<Registration> registrationList;
 
     public Long getId() {
